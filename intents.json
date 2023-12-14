@@ -1,0 +1,171 @@
+{
+  "intents": [
+    {
+      "etiqueta": "saludos",
+      "patrones": [
+        "Hola",
+        "Buenas"
+      ],
+      "responses": [
+        "Bienvenido!! en que puedo ayudarte?",
+        "Hola, en que puedo ayudarte?",
+        "Hola, que necesitas?"
+      ]
+    },
+    {
+      "etiqueta": "saludo dia",
+      "patrones":[
+        "Buen dia",
+        "Buenos dias"
+      ],
+      "responses":[
+        "Buenos dias, en que puedo ayudarte?",
+        "Buen dia, en que puedo ayudarte?"
+      ]
+    },
+    {
+      "etiqueta": "saludo tarde",
+      "patrones":[
+        "Buena tarde",
+        "Buenas tardes"
+      ],
+      "responses":[
+        "Hola, buena tarde!, en que puedo ayudarte?",
+        "Buenas tardes, en que puedo ayudarte?"
+      ]
+    },
+    {
+      "etiqueta": "saludo noche",
+      "patrones":[
+        "buena noche",
+        "Buenas noches"
+      ],
+      "responses":[
+        "hola, buena noche. En que puedo ayudarte?",
+        "Buenas noches, bienvenido. En que puedo ayudarte?"
+      ]
+    },
+    {
+      "etiqueta": "Despedida",
+      "patrones": [
+        "adios",
+        "Nos vemos luego",
+        "bye"
+      ],
+      "responses": 
+      [
+        "Ten un buen dia",
+        "Adios! vuelve pronto",
+        "Espero haberte ayudado",
+        "Adios, Vuelve siempre que necesites ayuda"
+      ]
+    },
+    {
+      "etiqueta": "Agradecimientos",
+      "patrones": [
+        "Gracias",
+        "Muchas gracias",
+        "Te lo agradezco",
+        "gracias por la ayuda",
+        "gracias por la informacion"
+      ],
+      "responses": [
+        "Espero haberte ayudado, vuelve pronto", 
+        "De nada! vuelva pronto", 
+        "Es un placer poderte ayudar"
+      ]
+    },
+    {
+      "etiqueta": "Carreras",
+      "patrones":[
+        "Necesito informacion sobre las carreras",
+        "Que carreras hay disponibles",
+        "Cuales son las carreras",
+        "Cuantas carreras tienen"
+      ],
+      "responses":[
+        "Con gusto, actualmente estas son las carreras disponibles: \n \n Ing. Industrial\n Ing. en Sistemas\n Admin. Empresas\n ciencias Juridicas\n Contraduria Publica\n Y Auditoria\n Psicologia Clinica\n Lic. Administracion \n Educativa\n PEM Especializado en\n Educacion primaria\n PEM Especialidades: \n Comunic. y lenguaje \n Fisica y matematica \n Tecnologia Educativa\n Formacion ciudadana"
+      ]
+    },
+    {
+      "etiqueta": "Incripcion",
+      "patrones": [
+        "Cuanto cuesta",
+        "Necesito informacion del precio de las carreras",
+        "Precio de inscripcion",
+        "Cuales son los precios de las carreras"
+      ],
+      "responses": [
+        "Con gusto, actualmente estos son los precios de inscripcion de las siguientes carreras: \n Carrera             Inscripcion\n Ing. Industrial      Q600\n Ing. en Sistemas     Q530\n Admin. Empresas      Q530\n ciencias Juridicas   Q530 \n Contraduria Publica\n Y Auditoria          Q530\n Psicologia Clinica   Q530\n Lic. Administracion \n Educativa            Q495\n PEM Especializado en\n Educacion primaria   Q495\n PEM Especialidades:  Q495\n Comunic. y lenguaje \n Fisica y matematica \n Tecnologia Educativa\n Formacion ciudadana"
+      ]
+    },
+    {
+      "etiqueta": "Requisitos",
+      "patrones": [
+        "quiero incribirme",
+        "Requisitos de inscripcion",
+        "Requisitos de admision",
+        "Que requisitos piden para la inscripcion"
+      ],
+      "responses": [
+        "Para inscribirte solo necesitas lo siquiente:\n 1)Fotocopia de DPI ampliado al 200% a color o fotocopia de Pasaporte si eres extranjero \n 2)Original de Certificacion general de cursos de nivel medio\n (incluir ciclos basicos y diversificado, sin borrones, tachones enmiendas o testados)\n 3)Fotostatica del titulo de 5x7 pulgadas (tomada en estudio Fotografico de ambos\n lados con datos legibles y registro de contraloria general de cuentas, NO ESCANEADO, \n presentar titulo original para ser confrontado con la fotostatica)\n 4) Fotografia tamaño cedula, de estudio fotografico y vestuario formal."
+      ]
+    },
+    {
+      "etiqueta": "Mensualidades",
+      "patrones": [
+        "cuales son las mensualidades",
+        "cual es el precio de las mensualidades",
+        "cual es la mensualidad",
+        "de cuanto es la mensualidad de"
+      ],
+      "responses": [
+        "Estos son los precios de las mensualidades de las siguientes carreras: \n Carrera                 Mensualidad\n Ing. Industrial          Q630\n Ing. en Sistemas         Q510\n Admin. Empresas          Q510\n ciencias Juridicas       Q510 \n Contraduria Publica\n Y Auditoria              Q485\n Psicologia Clinica           Q485\n Lic. Administracion \n Educativa                    Q450\n PEM Especializado en\n Educacion primaria       Q450\n PEM Especialidades:      Q450\n Comunic. y lenguaje \n Fisica y matematica \n Tecnologia Educativa\n Formacion ciudadana"
+      ]
+    },
+    {
+      "etiqueta": "Secretaria",
+      "patrones": [
+        "cuales son los horarios de atencion",
+        "cual es el horario de atencion",
+        "A que horas atiende"
+      ],
+      "responses": [
+        "La oficina le atiende: \n de lunes a Viernes de 2:00 pm hasta las 6:00 pm \n y Sabados de 8:00 am a 12:00pm"
+      ]
+    },
+    {"etiqueta": "Direccion Secretaria",
+      "patrones": [
+        "Cual es la direccion de secretaria",
+        "direecion de la secretaria",
+        "direccion de las oficinas"
+      ],
+      "responses": [
+        "2a Avenida 4-44 zona 1, segundo nivel"
+      ]
+    },
+    {
+      "etiqueta": "Telefonos",
+      "patrones": [
+        "Numero telefonico",
+        "telefonicos de oficina",
+        "numeros de telefono de oficina",
+        "numeros telefonicos"
+      ],
+      "responses": [
+        "Telefonos: 7867-9295 y 7872-6854"
+      ]
+    },
+    {
+      "etiqueta": "Correo",
+      "patrones":[
+        "Cual es el correo de la universidad",
+        "cual es el correo",
+        "direccion de correo"
+      ],
+      "responses":[
+        "Nuestro correo es : mazatenango@umg.edu.gt"
+      ]
+    }
+  ]
+}
